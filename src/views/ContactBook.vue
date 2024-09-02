@@ -119,6 +119,9 @@ export default {
         }
       }
     },
+    goToAddContact() {
+      this.$router.push({ name: "contact.add" });
+    },
   },
   mounted() {
     this.refreshList();
